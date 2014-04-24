@@ -4,11 +4,11 @@ using System.Runtime.Serialization;
 
 namespace StrumpyShaderEditor
 {
-	[DataContract(Namespace = "http://strumpy.net/ShaderEditor/")]
-	public enum Queue {
-		[EnumMember] Geometry,
-		[EnumMember] Background,
-		[EnumMember] Transparent,
-		[EnumMember] Overlay
-	}
+    [DataContract(Namespace = "http://strumpy.net/ShaderEditor/")]
+    public enum Queue {
+        [EnumMember] Geometry,
+        [EnumMember] Background,
+        [EnumMember] Transparent,
+        [EnumMember] Overlay
+    }
 }

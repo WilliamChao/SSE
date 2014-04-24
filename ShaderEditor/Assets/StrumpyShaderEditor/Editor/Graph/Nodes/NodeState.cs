@@ -1,10 +1,10 @@
 namespace StrumpyShaderEditor
 {
-	public enum NodeState
-	{
-		Valid,
-		NotConnected,
-		Error,
-		CircularReferenceInGraph
-	}
+    public enum NodeState
+    {
+        Valid,
+        NotConnected,
+        Error,
+        CircularReferenceInGraph
+    }
 }

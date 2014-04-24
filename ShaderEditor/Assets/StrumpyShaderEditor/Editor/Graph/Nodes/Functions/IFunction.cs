@@ -1,7 +1,7 @@
 namespace StrumpyShaderEditor
 {
-	public interface IFunction : IResultCacheNode {
-		string GetFunctionDefinition();
-		string FunctionName{ get; }
-	}
+    public interface IFunction : IResultCacheNode {
+        string GetFunctionDefinition();
+        string FunctionName{ get; }
+    }
 }

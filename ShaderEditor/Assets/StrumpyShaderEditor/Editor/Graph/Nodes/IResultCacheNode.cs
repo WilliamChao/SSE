@@ -1,7 +1,7 @@
 namespace StrumpyShaderEditor
 {
-	public interface IResultCacheNode {
-		string GetAdditionalFields();
-		string GetUsage();
-	}
+    public interface IResultCacheNode {
+        string GetAdditionalFields();
+        string GetUsage();
+    }
 }

@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 
 namespace StrumpyShaderEditor
 {
-	[DataContract(Namespace = "http://strumpy.net/ShaderEditor/")]
-	public abstract class RootNode : Node {
-	}
+    [DataContract(Namespace = "http://strumpy.net/ShaderEditor/")]
+    public abstract class RootNode : Node {
+    }
 }

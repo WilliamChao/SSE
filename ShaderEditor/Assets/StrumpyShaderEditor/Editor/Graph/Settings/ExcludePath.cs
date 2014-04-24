@@ -4,10 +4,10 @@ using System.Runtime.Serialization;
 
 namespace StrumpyShaderEditor
 {
-	[DataContract(Namespace = "http://strumpy.net/ShaderEditor/")]
-	public enum ExcludePath {
-		[EnumMember] None,
-		[EnumMember] Forward,
-		[EnumMember] Prepass
-	}
+    [DataContract(Namespace = "http://strumpy.net/ShaderEditor/")]
+    public enum ExcludePath {
+        [EnumMember] None,
+        [EnumMember] Forward,
+        [EnumMember] Prepass
+    }
 }

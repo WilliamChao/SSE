@@ -5,25 +5,25 @@ using System.Runtime.Serialization;
 
 namespace StrumpyShaderEditor
 {
-	[DataContract(Namespace = "http://strumpy.net/ShaderEditor/")]
-	public class MatrixProperty : ShaderProperty
-	{
-		public MatrixProperty()
-		{
-		}
-		
-		public override void Draw()
-		{
-		}
+    [DataContract(Namespace = "http://strumpy.net/ShaderEditor/")]
+    public class MatrixProperty : ShaderProperty
+    {
+        public MatrixProperty()
+        {
+        }
 
-		public override InputType GetPropertyType() 
-		{
-			return InputType.Matrix;
-		}
-		
-		public override string GetPropertyDefinition()
-		{
-			return "";
-		}
-	}
+        public override void Draw()
+        {
+        }
+
+        public override InputType GetPropertyType()
+        {
+            return InputType.Matrix;
+        }
+
+        public override string GetPropertyDefinition()
+        {
+            return "";
+        }
+    }
 }
