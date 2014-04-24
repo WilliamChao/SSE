@@ -1,3 +1,14 @@
 ShaderEditor/Assets/StrumpyShaderEditor/Editor/obj/
 Release
-/*.suo
+
+Library
+Temp
+
+*.csproj
+*.unityproj
+*.sln
+*.pidb
+*.userprefs
+*.suo
+
+.DS_Store
